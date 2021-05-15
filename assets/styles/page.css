@@ -1,0 +1,63 @@
+body{
+    margin: 0px 0px;
+    width: auto;
+    height: auto;
+    background-color: rgb(241, 234, 234);
+    background-size: auto;
+}
+#container{
+    width: 400px;
+    height: 500px;
+    border:unset;
+    background-color: white;
+    text-align: center;
+    margin: 5% 38%;
+    font-family: sans-serif;
+    font-style: normal;
+}
+#container-header{
+    width: 400px;
+    height: 120px;  
+}
+#container-header h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+
+}
+#container-form{
+    width: 400px;
+    height: 380px;
+    margin-top: 0;
+    padding-top: 60px;
+}
+#container input{
+    margin: 20px;
+    width: 320px;
+    height: 40px;
+    border: unset;
+    font-size: 20px;
+}
+#container input:hover{
+    border: unset;
+    font-size: 20px;
+    background-color: rgb(184, 217, 250);
+}
+#container #submit{
+    width: 340px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(82, 82, 241);
+}
+#container #submit:hover{
+    width: 340px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(71, 71, 170);
+}
+#container-form #create-account{
+    border-bottom: none;
+    font-size: 18px;
+}

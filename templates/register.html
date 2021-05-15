@@ -1,0 +1,35 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="{% static 'styles/register.css'%}">
+</head>
+<body>
+    <div  class="container">
+        <header id="form-header">
+            <h2>Welcome to SAIRAM Travello</h2>
+            <h3>Create an account</h3>
+        </header>
+        <form action="register" method="post" id="form">
+            {% csrf_token %}
+            <input type="text" name="first_name" placeholder="First Name"><br>
+            <input type="text" name="last_name" placeholder="Last Name" pattern="a-z"><br>
+            <input type="email" name="email" placeholder="Email address"><br>
+            <input type="text" name="username" placeholder="Username" pattern="A-Za-z"><br>
+            <input type="password" name="password1" placeholder="Password" pattern="A-Za-z0-9"><br>
+            <input type="password" name="password2" placeholder="Re-type password" pattern="A-Za-z0-9"><br>
+            <a id="forgot" href="#">Forgot password</a>
+            <input type="submit" name="register" value="Create an account">
+            <p>Already have an account <a id="sign" href="login">Sign In</a></p>
+        </form>
+        <div>
+        {% for message in messages%}
+            <h2> {{message}} </h2>
+        {% endfor %}
+        </div>
+    </div>
+
+</body>
+</html>

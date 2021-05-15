@@ -1,0 +1,92 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: rgb(219, 215, 215);
+    font-family: serif;
+    font-style: normal;
+
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    margin: 5% 35%;
+    font-family: serif;
+
+}
+.container header{
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+#form-header h2{
+    margin: 0;
+    padding-top: 25px;
+    color: navy;
+    
+}
+#form-header h3{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 20px;
+    color: mediumblue;
+    
+}
+#form{
+    padding-top: 10px;
+    width: 400px;
+    height: 500px;
+    margin-top: 0;
+
+}
+#form input{
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    
+}
+#form #forgot{
+    text-decoration: none;
+}
+#form #forgot:hover{
+    text-decoration: none;
+    color: darkviolet;
+}
+#form input:hover{
+    border-bottom: black thin;
+    background-color: lightgrey;
+}
+
+
+#form input[type="submit"]{
+    margin-top: 30px;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: mediumblue;
+    color: white;
+}
+#form input[type="submit"]:hover{
+    margin-top: 30px;
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:blue;
+    color: white;
+}
+#form #sign{
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: none;
+    text-decoration: none;
+}
+#form #sign:hover{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkviolet;
+}
